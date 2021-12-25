@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-@Service // optional until we are not declaring object of it...
+@Service
 public class MyUserDetailsService implements UserDetailsService {
 
     @Autowired
